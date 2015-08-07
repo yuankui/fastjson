@@ -10,9 +10,15 @@
 	 </parent>
 -->
 
+	<parent>
+		<groupId>cn.fraudmetrix</groupId>
+		<artifactId>deploy-parent</artifactId>
+		<version>1.4</version>
+	</parent>
+
 	<groupId>com.alibaba</groupId>
 	<artifactId>fastjson</artifactId>
-	<version>1.2.6</version>
+	<version>1.2.6-fix</version>
 
 	<packaging>jar</packaging>
 	<name>fastjson</name>
@@ -194,7 +200,7 @@
 		<dependency>
 			<groupId>com.aliyun.odps</groupId>
 			<artifactId>odps-sdk-udf</artifactId>
-			<version>0.13.0</version>
+			<version>0.17.3</version>
 			<scope>provided</scope>
 			<optional>true</optional>
 		</dependency>
